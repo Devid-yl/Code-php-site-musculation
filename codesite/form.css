@@ -1,0 +1,40 @@
+body{
+  margin-left: 150px;
+  margin-right: 100px;
+  font-family: arial, helvetica;
+  font-size: 2em;
+  background-image: url("../elementsite/imagefond.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+h1{
+  text-align: center;
+  border: 1px solid #A2A630;
+  padding: 10px;
+  background-color: #005752;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+input{
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+textarea{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button{
+  margin-right: 30px;
+}

@@ -1,0 +1,28 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="index.php?action={$cible}&id={$id}" name="form_user" enctype="multipart/form-data">
+
+  <label for="auteur">Votre nom :</label><br> 
+  <input type="text" name="auteur" size="25" value="{$auteur}">
+  <span class="w3-text-red">{$erreur["auteur"]}</span><br><br> 
+  
+  <label>Nom de l'exercice :</label><br>
+  <input type="text" name="titre" size="50" value="{$titre}">
+  <span class="w3-text-red">{$erreur["titre"]}</span><br><br>
+  
+  <label>Description l'exercice :</label><br>
+  <textarea name="texte" rows="15" cols="100">{$texte}</textarea>
+  <span class="w3-text-red">{$erreur["texte"]}</span><br><br>
+  
+  <span class="w3-text-red">importer une image</span>
+  <input type="file" name="image">
+  <span class="w3-text-red">{$erreur["image"]}</span><br>
+  
+  <input type="submit" name="user_valider" value="Valider" size="" >
+      
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>
